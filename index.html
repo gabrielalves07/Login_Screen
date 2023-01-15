@@ -11,14 +11,21 @@
     <div class="circle" id="top-left"></div>
     <div class="circle" id="bottom-right"></div>
     <section class="container">
-        <div id="img"></div>
+        <div id="img">
+            <img src="assets/img/img_login.svg" alt="imagem login">
+        </div>
         <div id="form">
+            <div id="text-form">
+                <h1>Welcome!</h1>
+                <h2>Sign in to your Account</h2>
+            </div>
             <form action="#" method="post">
-                <input type="email" placeholder="Email Address">
-                <input type="password" placeholder="Password">
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required minlength="8">
+                <a href="#">Forgot password?</a>
                 <div id="container_buttons">
-                    <input type="button" value="SIGN IN">
-                    <input type="button" value="SIGN UP">
+                    <input type="button" value="SIGN IN" id="signin">
+                    <input type="button" value="SIGN UP" id="signup">
                 </div>
             </form>
             <div id="or_login_with">
