@@ -4,14 +4,61 @@
     div#img>img{
         width: 300px;
     }
+    div#social_medias{
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 820px){
+    section.container{
+        width: 80vw;
+        height: 80vh;
+    }
+    div#or_login_with>div#social_medias{
+        width: 80%;
+    }
+}
+
+/* TABLET */
+
+@media screen and (max-width: 688px){
+    div#form{
+        width: 90%;
+    }
+    div#or_login_with>div#social_medias{
+        width: 60%;
+    }
+
+    div#img{
+        display: none;
+    }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 506px){
     div.circle{
         display: none;
     }
+    body{
+        background-color: white;
+    }
+    div#form{
+        width: 80%;
+    }
+
     section.container{
+        padding-top: 20%;
+        border-radius: 0;
         width: 100vw;
-        height: 100vh;
+        box-shadow: none;
+    }
+
+    div#text-form{
+        padding: 0px;
+    }
+
+    div#or_login_with>div#social_medias{
+        width: 80%;
     }
 }
