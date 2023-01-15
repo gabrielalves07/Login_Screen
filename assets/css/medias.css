@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1033px){
+    div#img>img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    div.circle{
+        display: none;
+    }
+    section.container{
+        width: 100vw;
+        height: 100vh;
+    }
+}
