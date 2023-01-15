@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login</title>
     <link rel="stylesheet" href="assets/css/style.css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <div class="circle" id="top-left"></div>
@@ -21,7 +22,13 @@
             </div>
             <form action="#" method="post">
                 <input type="email" placeholder="Email Address" required>
+                <span class="material-symbols-outlined" id="icon_email">
+                    alternate_email
+                </span>
                 <input type="password" placeholder="Password" required minlength="8">
+                <span class="material-symbols-outlined" id="icon_pass">
+                    lock
+                    </span>
                 <a href="#">Forgot password?</a>
                 <div id="container_buttons">
                     <input type="button" value="SIGN IN" id="signin">
